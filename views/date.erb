@@ -1,12 +1,13 @@
+require 'date'
+
 <!DOCTYPE html>
 <html>
   <head>
     <title></title>
   </head>
   <body>
-    
+
     <h1><%= "Today" %></h1>
-    binding.pry
-    <p> The date is <%= Date.today.strftime("%A, %B, %d, %Y") %></p>
+    <p><%= "The date is #{Date.today.strftime("%A, %B, %d, %Y")}" %></p>
   </body>
 </html>

@@ -12,6 +12,7 @@ gem 'require_all'
     
 group :test do
   gem 'rspec'
+  gem 'shotgun'
   gem 'capybara'
   gem 'rack-test'
 end
